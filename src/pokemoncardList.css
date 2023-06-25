@@ -1,0 +1,18 @@
+/* .row-container{
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+
+} */
+.row-container {
+    
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+    
+      
+  }
+  .col-container{
+display: flex;
+flex-wrap: wrap;
+  }
+  
